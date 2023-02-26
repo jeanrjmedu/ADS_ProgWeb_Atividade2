@@ -1,0 +1,125 @@
+.foto {
+    height: 140px;
+    width: 120px;
+    background-color: rgba(240,240,240,1);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.canvasPrincipal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(40,40,40,0);
+    position: absolute;
+	z-index: 1;
+}
+
+.canvasMensagem {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(65, 65, 65, 0.9);
+    position: absolute;
+	z-index: 2;
+    overflow: hidden;
+}
+
+.caixaMensagem {
+    height: 24px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(244,244,244,1);
+    margin-top: 15%;
+    font-size: 24px;
+    box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
+.caixaMensagemNeutra {
+    border-bottom-style: solid;
+	border-color: rgb(49, 126, 207);
+	border-width: 5px;
+    cursor: wait;  
+}
+
+.caixaMensagemErro {
+    cursor: auto;
+    border-bottom-style: solid;
+	border-color: rgb(207, 49, 49);
+	border-width: 5px;
+    
+}
+
+.caixaMensagemSucesso {
+    cursor: auto;
+    border-bottom-style: solid;
+	border-color: rgb(49, 207, 89);
+	border-width: 5px;
+}
+
+.areaEdicao {
+    height: 300px;;
+    width: 500px;
+    background-color: rgba(1,200,200,0);
+    margin: 0 auto;
+    margin-top:60px;
+}
+
+.descrInput {
+    height: 18px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    color: rgba(70, 70, 70, 1);
+}
+
+.areaInput {
+    height: 30px;
+    width: 390px;
+    background-color: rgba(193, 186, 54, 0);
+    float: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+.bioInput {
+    height: 120px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 240, 240);
+    box-shadow: inset 0 0 2px grey;
+}
+
+.fotoInput {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 16px;
+}
+
+.textInput {
+   width: 385px;
+   font-size: 22px;
+   border: 0;
+   outline: 0;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgba(224, 224, 224, 1);
+   box-shadow: inset 0 0 2px grey;
+}
+
+.textInput:focus {
+    border: 0;
+	outline: 0;
+ }

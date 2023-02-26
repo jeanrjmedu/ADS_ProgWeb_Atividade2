@@ -1,0 +1,52 @@
+.foto {
+    height: 140px;
+    width: 120px;
+    background-color: rgba(240,240,240,1);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.canvasPrincipal {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(40,40,40,0);
+    animation-name: animacaoCaixas;
+    animation-duration: 5s;
+    
+}
+
+@keyframes animacaoCaixas {
+    0%   {background-color: rgba(255, 255, 255,1);}
+    25%  {background-color: rgba(212,211,211,1);}
+    75%  {background-color: rgba(255,255,255,1);}
+}
+
+
+.txts {
+    width: 90%;
+    background-color: rgba(240,240,240,0);
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    
+}
+
+.nome {
+    font-size: 24px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-size: 16px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 16px;
+    height: 90px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
